@@ -236,10 +236,12 @@ class App extends React.Component {
   }
 
   render() {
+    console.log("app rendering");
     return (
       <main>
         <header id="topBanner">
           <h1>Weekly Weather Watch</h1>
+          <a href="/index.html">Back to homepage</a>
         </header>
         <section id="selectedDetails">
           <LocationDisplay />

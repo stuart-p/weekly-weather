@@ -63,6 +63,7 @@ export class DayPreview extends React.Component {
   };
 
   render() {
+    console.log("day rendering");
     const forecastButtonClass = classNames({
       forecastGrid__itemBG: true,
       [this.whatWeather().mod]: true,

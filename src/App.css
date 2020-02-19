@@ -34,6 +34,35 @@ main {
   color: var(--colorB);
 }
 
+#topBanner a {
+  position: absolute;
+  top: 0;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.3em;
+  font-weight: 900;
+  letter-spacing: 0em;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  margin: 50px 0 0 10px;
+  width: 10rem;
+  background-color: rgb(228, 87, 46);
+  border-radius: 3px;
+  transition: 0.5s ease;
+  box-shadow: 1px 3px 10px 4px rgb(39, 39, 39);
+}
+#topBanner a:hover {
+  background-color: rgb(205, 217, 222);
+  color: black;
+}
+#topBanner a:active {
+  background-color: rgb(104, 144, 160);
+}
+
 #selectedDetails {
   grid-row: 2/4;
   grid-column: 1/11;
